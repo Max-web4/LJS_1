@@ -1,16 +1,11 @@
-let admin;
-let name;
+let number = prompt(`submit some number`, "");
+if(number > 0)  {
+alert(`1!`) ;
+}
+else if(number < 0) { 
+    alert(`-1`)   ;
+}
+ 
+ else   { alert(`0`)   ;
+}
 
-admin = `John`;
-name = admin;
-alert(admin)
-
-let ourPlanetName = `земля`;
-
-let yourName = prompt(`Укажите ваше имя`, `Yoda`)
-
-alert(`hi ${yourName}`)
-let a = prompt("Первое число?", 1);
-let b = prompt("Второе число?", 2);
-
-alert(+a + +b);
